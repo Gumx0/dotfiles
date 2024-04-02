@@ -3,9 +3,9 @@ return { -- Adds git related signs to the gutter, as well as utilities for manag
   priority = 0,
   opts = {
     signs = {
-      add = { text = '😃' },
-      change = { text = '🤗' },
-      delete = { text = '💀' },
+      add = { text = '+' },
+      change = { text = '~' },
+      delete = { text = '_' },
       topdelete = { text = '‾' },
       changedelete = { text = '~' },
     },

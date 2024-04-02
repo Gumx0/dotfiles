@@ -32,13 +32,6 @@ return { -- Autocompletion
     --  nvim-cmp does not ship with all sources by default. They are split
     --  into multiple repos for maintenance purposes.
     'hrsh7th/cmp-nvim-lsp',
-    'hrsh7th/cmp-path',
-    {
-      'Exafunction/codeium.nvim',
-      cmd = 'Codeium',
-      build = ':Codeium Auth',
-      opts = {},
-    },
   },
   config = function()
     -- See `:help cmp`
@@ -105,7 +98,6 @@ return { -- Autocompletion
         { name = 'nvim_lsp' },
         { name = 'luasnip' },
         { name = 'path' },
-        { name = 'codeium' },
       },
     }
   end,
